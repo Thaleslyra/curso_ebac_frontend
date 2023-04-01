@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Formulário JQuery</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulário de Cadastro</h1>
+    </header>
+    <section>
+      <div class="container">
+        <form action="" id="form">
+          <div class="form-campo">
+            <label for="nome-completo">Nome Completo:</label>
+            <input type="text" name="nome-completo" />
+          </div>
+
+          <div class="form-campo">
+            <label for="e-mail">E-mail:</label>
+            <input type="email" name="e-mail" />
+          </div>
+
+          <div class="form-campo">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" />
+          </div>
+
+          <div class="form-campo">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf"  id="cpf"/>
+          </div>
+
+          <div class="form-campo">
+            <label for="endereco-completo">Endereço Completo:</label>
+            <input type="text" name="endereco-completo" />
+          </div>
+
+          <div class="form-campo">
+            <label for="cep">CEP:</label>
+            <input type="text" name="cep" id="cep" />
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
